@@ -43,3 +43,7 @@ The point P can be described by coordinate vectors relative to either frame {A},
 > In relative pose composition we can check that we have our reference frames correct by ensuring that the subscript and superscript on each side of the ⊕ operator are matched. We can then cancel out the  intermediate subscripts and superscripts
 
 >leaving just the end most subscript and superscript which are shown highlighted.
+
+$$
+J(\theta) = \frac 1 2 \sum_{i=1}^m (h_\theta(x^{(i)})-y^{(i)})^2
+$$
